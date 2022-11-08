@@ -1,0 +1,172 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif, Arial, Helvetica;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    gap: 8px;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+.navbar {
+    background: #5588e0;
+    height: 70px;
+}
+
+.navbar .container { 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.navbar .logo {
+    font-size: x-large;
+    font-weight: bold;
+    color: rgb(221, 68, 68);
+}
+
+.navbar a {
+    text-decoration: none;
+    color: rgb(134, 35, 35);
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    color: yellow;
+}
+
+.navbar ul li {
+    margin-left: 20px;
+}
+
+.header {
+    background: pink;
+    height: 400px;
+}
+
+.header .container {
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1 1 auto;
+}
+
+.header div {
+    max-height: 100%;
+}
+
+.header h1 {
+    font-size: 1.5rem;
+    line-height: 1.2;
+    text-align: center;
+}
+
+.header p {
+    font-size: x-large;
+    margin-top: 15px;
+}
+
+.header button {
+    background: blue;
+    color: white;    
+    font-size: medium;
+}
+
+div.title {
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+    background: rgb(95, 195, 95);
+
+}
+
+.pieces {
+    background: rgb(95, 195, 95)
+}
+
+.pieces .container {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+    flex-wrap: wrap;
+    flex: 1 1 auto
+}
+
+.pieces p {
+    text-align: center;
+    font-size: large;
+}
+
+.quote {
+    background: lightblue;
+}
+
+.quote p {
+    font-style: italic ;
+    font-size: 30px;
+    text-align: center;
+}
+
+.quote .tag {
+    font-size: larger;
+    position: relative;
+    left: 250px;  
+}
+
+.call {
+    background: whitesmoke;
+    height: 110px;
+    display: flex;
+    align-items: center;
+    padding:6px 50px 6px 50px;
+}
+
+.call .container {
+    display: flex;
+    background: yellowgreen;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px ;
+    margin-bottom: 100px;
+    flex-wrap: wrap;
+    flex: 1 1 auto;
+    max-width: 70%;
+
+}
+
+.call button {
+    width: 100px;
+    height: 30%;
+}
+
+.copy {
+    background: rgb(8, 8, 36);
+    color: white;
+    text-align: center;
+
+}
+
+
